@@ -13,6 +13,9 @@ def palindrome_check(str):
     else:
         return False
 
-
+###########
+#主程式開始#
+###########
+    
 while True:
     print(palindrome_check(input('請輸入欲檢查的字串：')))
