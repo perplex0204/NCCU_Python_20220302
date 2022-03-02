@@ -1,5 +1,17 @@
 import numpy
 
+'''
+輸入兩個元素的tuple兩個做為兩點
+計算兩點在平面上的方程式cy = ax + b
+若斜率不存在(垂直線)，則c = 0
+存在則
+輸出為
+dict = {
+    'a':a,
+    'b':b,
+    'c':c
+}
+'''
 
 def find_function(point_a, point_b):
     if point_a[0] == point_b[0]:
@@ -23,7 +35,9 @@ def find_function(point_a, point_b):
     }
     return answer
 
-
+###########
+#主程式開始#
+###########
 while True:
     try:
         x1, y1 = input('請輸入第一個數組(兩個數字)，並用空白隔開：').split(' ')
