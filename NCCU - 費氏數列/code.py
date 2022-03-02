@@ -4,8 +4,6 @@
 import time
 
 # 上限定義為數值
-
-
 def fibinacci_number_limit_number(limit):
     answer = [1, 1]
     index = 2
@@ -16,8 +14,6 @@ def fibinacci_number_limit_number(limit):
     return answer
 
 # 上限定義為算到第幾項
-
-
 def fibinacci_number_limit_count(limit):
     answer = []
     for i in range(limit):
@@ -27,6 +23,9 @@ def fibinacci_number_limit_count(limit):
             answer.append(answer[i-1]+answer[i-2])
     return answer
 
+###########
+#主程式開始#
+###########
 
 while True:
     try:
