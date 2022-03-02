@@ -1,3 +1,7 @@
+'''
+檢查回文
+'''
+
 def palindrome_check(str):
     buffer1 = []
     buffer2 = []
